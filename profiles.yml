@@ -1,0 +1,14 @@
+sajdbt:
+  outputs:
+    dev:
+      account: SQ48941.us-east-2.aws
+      authenticator: externalbrowser
+      database: DEV
+      role: TRANSFORMER_DEV
+      schema: dbt_sshaik
+      threads: 1
+      type: snowflake
+      user: DBT_CLOUD_DEV
+      warehouse: TRANSFORMING
+
+    target: dev
