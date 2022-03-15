@@ -13,9 +13,9 @@ with source_data as (
 
     select 1 as id
     union all
-    select null as id
+    select 999 as id
     union all
-    select 9 as id
+    select 111 as id
 )
 
 select *
