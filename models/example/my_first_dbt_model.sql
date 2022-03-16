@@ -16,6 +16,8 @@ with source_data as (
     select 999 as id
     union all
     select 2111 as id
+    union all
+    select 1234 as id
 )
 
 select *
