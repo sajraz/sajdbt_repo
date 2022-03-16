@@ -17,8 +17,6 @@ with source_data as (
     union all
     select 2111 as id
     union all
-    select 1234 as id
-    union all
     select 98765 as id
 )
 
