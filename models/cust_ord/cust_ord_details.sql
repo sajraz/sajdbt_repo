@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 select c.id, user_id, full_name, order_date, status_code from 
 {{ ref('bv_customer') }}
 inner join
